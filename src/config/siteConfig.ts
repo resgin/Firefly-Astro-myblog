@@ -6,11 +6,11 @@ import { fontConfig } from "./fontConfig";
 const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
-	title: "Firefly", // 网站标题 
-	//subtitle: "", // 网站副标题
-	site_url: "https://922211.xyz",// 网站URL 
+	title: "Firefly",//网站标题
+	subtitle: "",//网站副标题
+	site_url: "https://922211.xyz",//网站链接
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。"，    // 网站描述 
+		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",//网站简介
 	keywords: [
 		"Firefly",
 		"Fuwari",
@@ -33,7 +33,7 @@ export const siteConfig: SiteConfig = {
 		// 留空以使用默认 favicon
 		{
 			src: "/assets/images/favicon.ico", // 图标文件路径
-			theme: "light"， // 可选，指定主题 'light' | 'dark'
+			theme: "light", // 可选，指定主题 'light' | 'dark'
 			sizes: "32x32", // 可选，图标大小
 		},
 	],
